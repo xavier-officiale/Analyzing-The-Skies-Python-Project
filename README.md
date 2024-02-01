@@ -11,6 +11,8 @@ The primary goal of this project is to delve into the intricate details of air t
 ### Source:
 The data originates from TranStats, a division of the United States Department of Transportation (DOT). This official government source is considered reliable, as it collects on-time data for flights reported by US carriers. The dataset is particularly intriguing for its potential to reveal trends in the behavior of carriers, the capacity of major airports, and the ability of airlines to meet travelers' expectations regarding timeliness.
 
+Geospatial analysis was conducted in Python using this [us-states.json](https://coach-courses-us.s3.amazonaws.com/public/courses/data-immersion/A6/6.3/us-states.json) file.
+
 ### Collection Method:
 Administrative data related to airline flight operations is collected automatically through an Airline Operations and Delay System (AODB). The delay information, including reasons for delays, is manually recorded by airline staff, air traffic controllers, or airport personnel. The AODB captures and publishes this data monthly, providing a near-real-time snapshot of the previous month's flight operations.
 
